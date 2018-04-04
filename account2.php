@@ -4,7 +4,25 @@ $uID = $_POST['uID'];
 $em = $_POST['em'];
 $pw = $_POST['pw'];
 $ph = $_POST['ph'];
+if(empty($uID)){
+    echo '<div class="col-lg-12 bg-danger" style="color:red; width:154px;"><span class="glyphicon glyphicon-remove"></span> Enter user id</div>';
+    return;
+}
 
+if(empty($em)){
+    echo '<div class="col-lg-12 bg-danger" style="color:red; width:154px;"><span class="glyphicon glyphicon-remove"></span> Enter email address</div>';
+    return;
+}
+
+if(empty($pw)){
+    echo '<div class="col-lg-12 bg-danger" style="color:red; width:154px;"><span class="glyphicon glyphicon-remove"></span> Enter password</div>';
+    return;
+}
+
+if(empty($ph)){
+    echo '<div class="col-lg-12 bg-danger" style="color:red; width:154px;"><span class="glyphicon glyphicon-remove"></span> Enter mobile number</div>';
+    return;
+}
 $connection = mysqli_connect("localhost", "root", "", "project");
 
 $SQLCheckUser = mysqli_query($connection, "SELECT * FROM register WHERE uid = '".$uID."' ");
