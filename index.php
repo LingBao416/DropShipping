@@ -87,7 +87,7 @@
 		<span class="glyphicon glyphicon-chevron-down" style="color:#222222"></span>
         </button>
 	
-		<a style="img-thubmnail" href="index.html"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
+		<a style="img-thubmnail" href="index.php"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
 
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -96,22 +96,22 @@
         
 		
 										<li style="border-left:1px solid #666666">
-											<a href="category.html">Categories</a>
+											<a href="category.php">Categories</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="todaysdeal.html">Today's Deals</a>
+											<a href="todaysdeal.php">Today's Deals</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="giftcards.html">Gift Cards</a>
+											<a href="giftcards.php">Gift Cards</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="registry.html">Registry</a>
+											<a href="registry.php">Registry</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="sell.html">Sell</a>
+											<a href="sell.php">Sell</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="account.html">Account</a>
+											<a href="account.php">Account</a>
 										</li>
 								
 									<li style="border-left:1px solid #666666">
@@ -142,20 +142,20 @@
 				<div class="item active"><img class="img-responsive" src="photos/1.jpg" alt="umazon.com">
 				  <div class="slide-text slide_style_center">
 					<h1 data-animation="animated zoomInCenter" class="cap-txt  animated zoomInLeft">This is the Best Way For Shopping</h1>
-					<a class="theme-btn btn-style-one" href="account.html"><p data-animation="animated bounceInDown" class="animated bounceInDown">Sign Up Now</p>	</a>
+					<a class="theme-btn btn-style-one" href="account.php"><p data-animation="animated bounceInDown" class="animated bounceInDown">Sign Up Now</p>	</a>
 				  </div>
 				</div>
 			   <div class="item"><img class="img-responsive" src="photos/2.jpg" alt="umazon.com">
 				  <div class="slide-text slide_style_center">
 					<h1 data-animation="animated zoomInCenter" class="cap-txt  animated zoomInRight" style="font-size:36px; color:#999999">This is the Best Way For Shopping</h1>
-					<a class="theme-btn btn-style-one" href="account.html"><p data-animation="animated bounceInUp" class="animated bounceInUp">Sign Up Now</p></a>
+					<a class="theme-btn btn-style-one" href="account.php"><p data-animation="animated bounceInUp" class="animated bounceInUp">Sign Up Now</p></a>
 				  </div>
 				</div>
 				
 				<div class="item"><img class="img-responsive" src="photos/3.jpg" alt="umazon.com">
 				  <div class="slide-text slide_style_left"><br/><br/>
 					<h1 data-animation="animated zoomInLeft" class="cap-txt animated zoomInLeft" style="font-size:34px; color:#1A2020">This is the Best Way For Shopping</h1>
-					<a class="theme-btn btn-style-one" href="account.html"><p data-animation="animated bounceInDown" class="animated bounceInDown" style="font-size:24px">Sign Up Now</p></a>
+					<a class="theme-btn btn-style-one" href="account.php"><p data-animation="animated bounceInDown" class="animated bounceInDown" style="font-size:24px">Sign Up Now</p></a>
 					
 				  </div>
 				</div>
@@ -229,7 +229,7 @@
 							<h4 class='description_content' style="text-align:center;">Electronics</h4><!-- end description content -->
 						</div>
 						<center>
-							<a class="theme-btn btn-style-one" href="electronics.html" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
+							<a class="theme-btn btn-style-one" href="electronics.php" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
 						</center>
 					</div><!--Corousel Column-->
 					<div class="column col-md-3 col-sm-3 col-xs-12">
@@ -239,7 +239,7 @@
 							<h4 class='description_content' style="text-align:center;">Women Clothes </h4><!-- end description content -->
 						</div>
 						<center>
-							<a class="theme-btn btn-style-one" href="womenclothes.html" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
+							<a class="theme-btn btn-style-one" href="womenclothes.php" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
 						</center>
 					</div>
 					<div class="column col-md-3 col-sm-3 col-xs-12">
@@ -249,7 +249,7 @@
 							<h4 class='description_content' style="text-align:center;">Electronics </h4><!-- end description content -->
 						</div>
 						<center>
-							<a class="theme-btn btn-style-one" href="electronics.html" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
+							<a class="theme-btn btn-style-one" href="electronics.php" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
 						</center>
 					</div>
 					<div class="column col-md-3 col-sm-3 col-xs-12">
@@ -259,7 +259,7 @@
 							<h4 class='description_content' style="text-align:center;">Accessories </h4><!-- end description content -->
 						</div>
 						<center>
-							<a class="theme-btn btn-style-one" href="accessories.html" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
+							<a class="theme-btn btn-style-one" href="accessories.php" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
 						</center>
 					</div>
 
@@ -270,7 +270,7 @@
 							<h4 class='description_content' style="text-align:center;">Tools</h4><!-- end description content -->
 						</div>
 						<center>
-							<a class="theme-btn btn-style-one" href="tools.html" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
+							<a class="theme-btn btn-style-one" href="tools.php" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
 						</center>
 					</div>
 					<div class="column col-md-3 col-sm-3 col-xs-12">
@@ -280,7 +280,7 @@
 							<h4 class='description_content' style="text-align:center;">Mobile</h4><!-- end description content -->
 						</div>
 						<center>
-							<a class="theme-btn btn-style-one" href="mobile.html" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
+							<a class="theme-btn btn-style-one" href="mobile.php" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
 						</center>
 					</div>	
 					<div class="column col-md-3 col-sm-3 col-xs-12">
@@ -290,7 +290,7 @@
 							<h4 class='description_content' style="text-align:center;">Shoes</h4><!-- end description content -->
 						</div>
 						<center>
-							<a class="theme-btn btn-style-one" href="shoes.html" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
+							<a class="theme-btn btn-style-one" href="shoes.php" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 2px; margin: 0px; padding: 6px 13px; letter-spacing: 0px; font-size: 12px; margin-top:10px;">Order Now</a>
 						</center>
 					</div>	
 				</div>
@@ -336,7 +336,7 @@
 					</div>
 					<div class="column col-md-4 col-sm-4 col-xs-12">
 						<div class="inner-box">
-							<a class="btnn" href="account.html">SIGN UP NOW</a>
+							<a class="btnn" href="account.php">SIGN UP NOW</a>
 						</div>
 					</div>
 				</div>
@@ -369,25 +369,25 @@
 										<div class="widget-content">
 											<ul class="list">
 												<li>
-													<a href="index.html">Umazon.com</a>
+													<a href="index.php">Umazon.com</a>
 												</li>
 												<li>
-													<a href="category.html">Category</a>
+													<a href="category.php">Category</a>
 												</li>
 												<li>
-													<a href="todaysdeal.html">Today's Deal</a>
+													<a href="todaysdeal.php">Today's Deal</a>
 												</li>
 												<li>
-													<a href="giftcards.html">Gift Cards</a>
+													<a href="giftcards.php">Gift Cards</a>
 												</li>
 												<li>
-													<a href="registry.html">Registry</a>
+													<a href="registry.php">Registry</a>
 												</li>
 												<li>
-													<a href="sell.html">Sell</a>
+													<a href="sell.php">Sell</a>
 												</li>
 												<li>
-													<a href="account.html">Account</a>
+													<a href="account.php">Account</a>
 												</li>
 											</ul>
 										</div>

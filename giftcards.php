@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>umazon.com - Products Selling Page</title>
+<title>umazon.com - Gift Cards</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -209,7 +209,7 @@ ul#lightGallery {
 		<span class="glyphicon glyphicon-chevron-down" style="color:#222222"></span>
         </button>
 	
-		<a style="img-thubmnail" href="index.html"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
+		<a style="img-thubmnail" href="index.php"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
 
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -218,22 +218,22 @@ ul#lightGallery {
         
 		
 										<li style="border-left:1px solid #666666">
-											<a href="category.html">Categories</a>
+											<a href="category.php">Categories</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="todaysdeal.html">Today's Deals</a>
+											<a href="todaysdeal.php">Today's Deals</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="giftcards.html">Gift Cards</a>
+											<a href="giftcards.php">Gift Cards</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="registry.html">Registry</a>
+											<a href="registry.php">Registry</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="sell.html">Sell</a>
+											<a href="sell.php">Sell</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="account.html">Account</a>
+											<a href="account.php">Account</a>
 										</li>
 								
 									<li style="border-left:1px solid #666666">
@@ -255,141 +255,179 @@ ul#lightGallery {
 </div>
 </nav>
 </div>
+        
                    
     
     
+    
+     <!--breadcrumb-->
+    <div class="container" style="margin-top: 30px;">
+       <ul class="breadcrumb">
+        <li><a href="index.php">Home</a></li>
+        <li class="active">Gift Cards</li>        
+        </ul>
+   </div>
+    <!--End Breadcrumb-->
+    
+   <!-- gallery -->
+<div class="container gallery" id="gallery">
+	<h2 style="text-align:center; font-size:38px; color:#000; font-family: 'Dancing Script', cursive;">Send Gift Card to a Friend</h2>
+			<div class="w3layouts_gallery_grids">
+				<ul class="w3l_gallery_grid" id="lightGallery">
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g1.jpg" data-responsive-src="images/g1.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g1.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+									
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g2.jpg" data-responsive-src="images/g2.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g2.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+									
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g3.jpg" data-responsive-src="images/g3.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g3.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+									
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g4.jpg" data-responsive-src="images/g4.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g4.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+									
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g5.jpg" data-responsive-src="images/g5.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g5.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+									
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g6.jpg" data-responsive-src="images/g6.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g6.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+									
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g7.jpg" data-responsive-src="images/g7.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g7.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+								
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g8.jpg" data-responsive-src="images/g8.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g8.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+									
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g9.jpg" data-responsive-src="images/g9.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g9.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+								
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g10.jpg" data-responsive-src="images/g10.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g10.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+								
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g11.jpg" data-responsive-src="images/g11.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g11.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+								
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-title="Umazon" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/g12.jpg" data-responsive-src="images/g12.jpg"> 
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/g12.jpg" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> Send to a Friend</h4>
+								
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+</div>
+<!-- //gallery -->
 
 
-<!--Contact Banner-->
-    <div class="contact-banner" style="background-color:#0099CC">
+    
+    <!--Contact Banner-->
+    <div class="contact-banner" style="background-image:url(images/background/11.jpg);">
     	<div class="auto-container">
         	<div class="row clearfix">
-            	
-                	<h2 align="center">“I started selling on umazon in 2018. My business is growing ten times since then.”
-					<br/><br/>
-					<div class="text-primary">
-					<a href="selling.html" class="theme-btn btn-style-one">Start Selling</a>
-					</div>
-                </h2>
-               
+            	<div class="column col-md-6 col-sm-12 col-xs-12">
+                	<h2>You can sell your products on Umazon.com</h2>
+                </div>
+                <div class="column col-md-6 col-sm-12 col-xs-12 text-right">
+                	<a href="account.php" class="theme-btn btn-style-one">Sign Up Here</a>
+                </div>
             </div>
         </div>
     </div>
     <!--Contact Banner-->
-	
-	
-
-
-<div class="container-fluid" style="padding-top:0px">
-
-<div class="container">	
-<br/>
-
- <br/>
-
-	<div class="row">
-	
-	<h2 style="color:#0066CC" align="center">Why sell on umazon?</h2>
-	<hr>
-        <!-- Boxes de Acoes -->
-    	<div class="col-xs-12 col-sm-6 col-sm-4">
-			<div style="background-color:#ffffff">							
-				
-				<div style="background-color:#ffffff">
-					<br/>
-						<h4 style="color:#0066CC" align="left">Access a new sales channel</h4>
-    					<p>Start selling without creating a website—manage everything from Seller Central.</p>
-					</div>
-			</div> 
-			<hr>
-		</div>
-					
-			<div class="col-xs-12 col-sm-6 col-sm-4">
-			<div style="background-color:#ffffff">							
-				
-				<div style="background-color:#ffffff">
-					<br/>
-						<h4 style="color:#0066CC" align="left">Reach hundreds of millions of customers</h4>
-    					<p>In the U.S. alone, umazon has over 150 million monthly unique visitors.</p>
-					</div>
-			</div> 
-			<hr>
-		</div>
-       
-			
-        <div class="col-xs-12 col-sm-6 col-sm-4">
-			<div style="background-color:#ffffff">								
-									
-					<div style="background-color:#ffffff">
-					<br/>
-						<h4 style="color:#0066CC" align="left">Build on our brand</h4>
-    					<p>umazon ranked #7 in reputation in a 2018 Nielsen Company survey.</p>
-					</div>
-				</div>
-				<hr>
-		</div>		    
-		
-		
-<h2 style="text-align:center; color:#009900; font-family: 'Dancing Script', Arial;">- Sell Products Online with Selling on umazon -</h2>
-		<!-- /Boxes de Acoes -->
-	</div>
-</div>
-
-
-
-
-</div></div>
-<br/><br/>
-
-
-
-
-<div class="jumbotron">
-		
-		<section class="services-section">
-			<div class="auto-container">
-				<!--sec title one-->
-				<div class="sec-title-one" style="margin-top: 5px; margin-bottom: 16px;">
-					<h2>How It Works</h2>
-					<h4 style="color:#FF0000">We Create Great Memory</h4>
-				</div>
-				<div class="container clearfix">
-					<!--Services Block-->
-					<center>
-						<img src="images/How-we-Work-eDabbewala.png" width="600">
-					</center>
-				</div>
-			</div>
-		</section><!--Services Section-->
-		
-		</div>
-		
-		
-		
-		<section class="restaurant" style="padding:40px 0 0 0 !important;">
-			<div class="auto-container" style="border:5px solid #feb518;">
-				<div class="row clearfix">
-				
-						<div class="inner-box">
-							<h2 align="center"><a href="#">New on umazon?</a></h2>
-							<h4 align="center">Sign Up Now and get the best selling offer from umazon.</h4>
-							<br/>
-							
-						<div class="inner-box" align="center">
-							<a class="theme-btn btn-style-one" href="account.html">New User</a>
-						</div>
-						</div>
-						
-				</div>
-			</div>
-			<br/><br/>
-		</section><!--Services Section-->
-		
-
-
-
-    
-    
     
     
     <!--Main Footer-->
@@ -408,25 +446,25 @@ ul#lightGallery {
 										<div class="widget-content">
 											<ul class="list">
 												<li>
-													<a href="index.html">Umazon.com</a>
+													<a href="index.php">Umazon.com</a>
 												</li>
 												<li>
-													<a href="category.html">Category</a>
+													<a href="category.php">Category</a>
 												</li>
 												<li>
-													<a href="todaysdeal.html">Today's Deal</a>
+													<a href="todaysdeal.php">Today's Deal</a>
 												</li>
 												<li>
-													<a href="giftcards.html">Gift Cards</a>
+													<a href="giftcards.php">Gift Cards</a>
 												</li>
 												<li>
-													<a href="registry.html">Registry</a>
+													<a href="registry.php">Registry</a>
 												</li>
 												<li>
-													<a href="sell.html">Sell</a>
+													<a href="sell.php">Sell</a>
 												</li>
 												<li>
-													<a href="account.html">Account</a>
+													<a href="account.php">Account</a>
 												</li>
 											</ul>
 										</div>

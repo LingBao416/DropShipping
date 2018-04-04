@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>umazon.com - Registry Page</title>
+<title>umazon.com - Login/SIgnup Account Page</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -209,7 +209,7 @@ ul#lightGallery {
 		<span class="glyphicon glyphicon-chevron-down" style="color:#222222"></span>
         </button>
 	
-		<a style="img-thubmnail" href="index.html"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
+		<a style="img-thubmnail" href="index.php"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
 
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -218,22 +218,22 @@ ul#lightGallery {
         
 		
 										<li style="border-left:1px solid #666666">
-											<a href="category.html">Categories</a>
+											<a href="category.php">Categories</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="todaysdeal.html">Today's Deals</a>
+											<a href="todaysdeal.php">Today's Deals</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="giftcards.html">Gift Cards</a>
+											<a href="giftcards.php">Gift Cards</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="registry.html">Registry</a>
+											<a href="registry.php">Registry</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="sell.html">Sell</a>
+											<a href="sell.php">Sell</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="account.html">Account</a>
+											<a href="account.php">Account</a>
 										</li>
 								
 									<li style="border-left:1px solid #666666">
@@ -244,7 +244,7 @@ ul#lightGallery {
 								</li>
 								<!--Cart Btn-->
 								<li class="cart-btn" style="border-left:1px solid #666666">
-									<a href="shopping-cart.html"><span class="icon flaticon-bag" style="font-size:18px">&nbsp; Cart</span></a>
+									<a href="shopping-cart.php"><span class="icon flaticon-bag" style="font-size:18px">&nbsp; Cart</span></a>
 								</li>
 								
 							</ul>
@@ -263,8 +263,8 @@ ul#lightGallery {
      <!--breadcrumb-->
     <div class="container" style="margin-top: 30px;">
        <ul class="breadcrumb">
-        <li><a href="index.html">Home</a></li>
-        <li class="active">Registry</li>        
+        <li><a href="index.php">Home</a></li>
+        <li class="active">Login/Signup Account</li>        
         </ul>
    </div>
     <!--End Breadcrumb-->
@@ -272,67 +272,94 @@ ul#lightGallery {
 
 
 
-<div class="container-fluid" style="padding-top:0px">
+<div class="container-fluid" style="padding-top:10px">
 
-<div class="container">	
-
-<h2 style="text-align:center; font-size:38px; color:#aaa; font-family: 'Dancing Script', Arial;">- Register with umazon -</h2>
- <br/>
-
+ <div class="container">
+	
 	<div class="row">
-        <!-- Boxes de Acoes -->
-    	<div class="col-xs-12 col-sm-6 col-sm-6">
-			<div style="background-color:#eeeeee; border:thin; border-style:solid; border-color:#aaa">							
-				
-				<div style="background-color:#eeeeee">
-					<br/>
-						<a href="#" target="_blank"><h5 style="color:#0066CC" align="center">Find a registrant</h5></a>
-						<br/>
-    					<p><a href="#" target="_blank"><img src="images/Wedding_registry_new.png" width="100%" height="auto"></a>
-						</p>
-					</div>
-
-			</div> 
-		</div>
-			
-       
-			
-        <div class="col-xs-12 col-sm-6 col-sm-6">
-			<div style="background-color:#eeeeee; border:thin; border-style:solid; border-color:#aaa">								
-									
-					<div style="background-color:#eeeeee">
-					<br/>
-						<a href="#" target="_blank"><h5 style="color:#0066CC" align="center">Find a registrant</h5></a>
-						<br/>
-    					<p><a href="#" target="_blank"><img src="images/Baby_registry_new.png" width="100%" height="auto"></a>
-						</p>
-					</div>
-				</div>
-
-		</div>		    
-		<!-- /Boxes de Acoes -->
-	</div>
-</div>
-
-</div></div>
-<br/><br/>
-
-
-    
-    <!--Contact Banner-->
-    <div class="contact-banner" style="background-image:url(images/background/11.jpg);">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	<div class="column col-md-6 col-sm-12 col-xs-12">
-                	<h2>It's better to visit our place once</h2>
-                </div>
-                <div class="column col-md-6 col-sm-12 col-xs-12 text-right">
-                	<a href="registry.html" class="theme-btn btn-style-one">Sell Your Products</a>
-                </div>
+			<div class="col-sm-4">
+			<div class="panel panel-default">
+			<div class="panel-heading">
+                <div class="panel-title text-center">Member Login</div>
             </div>
-        </div>
+					<div class="panel-body">
+				<form name="form" id="form" class="form-horizontal" enctype="multipart/form-data" method="POST">
+                   
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="user" type="text" class="form-control" name="user" value="" placeholder="User ID">                                        
+                    </div>
+					
+					<br/>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                    </div>                                                                  
+
+					<br/>
+					
+                    <div class="form-group">
+                        <!-- Button -->
+                        <div class="col-sm-12 controls">
+                            <button type="submit" href="#" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> Log in</button>                          
+                        </div>
+                    </div>
+
+                </form>  
+				</div>
+				<div class="panel-footer text-center">
+				Forgot Password?
+				</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-2">
+			
+			</div>
+			
+			<div class="col-sm-6">
+			<div class="panel panel-default" align="right">
+			<div class="panel-heading">
+                <div class="panel-title text-center">Sign Up as New Member</div>
+            </div>
+				<div class="panel-body">
+				<form role="form" method="post" action="<?php $_SERVER['PHP_SELF']; ?>" >
+
+ 	<div class="form-group has-error has-feedback">
+     <input type="text" name="name" class="form-control" id="name" required placeholder="*user id" />
+     </div>
+	 
+  	<div class="form-group has-error has-feedback">
+    <input type="text" name="email" class="form-control" id="email" required placeholder="*email" />
+	</div>
+	
+  	<div class="form-group has-error has-feedback">
+    <input type="text" name="subject" class="form-control" id="subject" required placeholder="*password" />
     </div>
-    <!--Contact Banner-->
+	  
+	<div class="form-group has-error has-feedback">
+    <input name="message" rows="4" class="form-control" id="message" required placeholder="*mobile number" />
+    </div>
+
+	 <div class="form-group has-error has-feedback">	  
+      <input type="submit" name="submit" class="btn btn-danger" value="Send" />&nbsp;&nbsp;
+      <input type="hidden" name="do" value="send" />
+	  <input type="reset" name="reset" class="btn btn-danger" value="Cancel" />
+	  </div>
+	  
+	  </form>
+				
+				</div>
+			</div>
+			
+			
+		</div><!-- End Row -->
+ 
+
+</div>
+ 
+</div></div>
     
     
     <!--Main Footer-->
@@ -351,25 +378,25 @@ ul#lightGallery {
 										<div class="widget-content">
 											<ul class="list">
 												<li>
-													<a href="index.html">Umazon.com</a>
+													<a href="index.php">Umazon.com</a>
 												</li>
 												<li>
-													<a href="category.html">Category</a>
+													<a href="category.php">Category</a>
 												</li>
 												<li>
-													<a href="todaysdeal.html">Today's Deal</a>
+													<a href="todaysdeal.php">Today's Deal</a>
 												</li>
 												<li>
-													<a href="giftcards.html">Gift Cards</a>
+													<a href="giftcards.php">Gift Cards</a>
 												</li>
 												<li>
-													<a href="registry.html">Registry</a>
+													<a href="registry.php">Registry</a>
 												</li>
 												<li>
-													<a href="sell.html">Sell</a>
+													<a href="sell.php">Sell</a>
 												</li>
 												<li>
-													<a href="account.html">Account</a>
+													<a href="account.php">Account</a>
 												</li>
 											</ul>
 										</div>

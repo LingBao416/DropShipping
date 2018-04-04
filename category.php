@@ -149,7 +149,7 @@
 		<span class="glyphicon glyphicon-chevron-down" style="color:#222222"></span>
         </button>
 	
-		<a style="img-thubmnail" href="index.html"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
+		<a style="img-thubmnail" href="index.php"><img src="images/umazon-logo.png" align="left" alt="UMAZON.COM" width="180px" height="50px"></a>
 
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -158,22 +158,22 @@
         
 		
 										<li style="border-left:1px solid #666666">
-											<a href="category.html">Categories</a>
+											<a href="category.php">Categories</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="todaysdeal.html">Today's Deals</a>
+											<a href="todaysdeal.php">Today's Deals</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="giftcards.html">Gift Cards</a>
+											<a href="giftcards.php">Gift Cards</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="registry.html">Registry</a>
+											<a href="registry.php">Registry</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="sell.html">Sell</a>
+											<a href="sell.php">Sell</a>
 										</li>
 										<li style="border-left:1px solid #666666">
-											<a href="account.html">Account</a>
+											<a href="account.php">Account</a>
 										</li>
 								
 									<li style="border-left:1px solid #666666">
@@ -200,7 +200,7 @@
 			<div class="container" style="margin-top: 30px;">
 				<ul class="breadcrumb">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li class="active">Category</li>
 				</ul>
@@ -634,25 +634,25 @@
 										<div class="widget-content">
 											<ul class="list">
 												<li>
-													<a href="index.html">Umazon.com</a>
+													<a href="index.php">Umazon.com</a>
 												</li>
 												<li>
-													<a href="category.html">Category</a>
+													<a href="category.php">Category</a>
 												</li>
 												<li>
-													<a href="todaysdeal.html">Today's Deal</a>
+													<a href="todaysdeal.php">Today's Deal</a>
 												</li>
 												<li>
-													<a href="giftcards.html">Gift Cards</a>
+													<a href="giftcards.php">Gift Cards</a>
 												</li>
 												<li>
-													<a href="registry.html">Registry</a>
+													<a href="registry.php">Registry</a>
 												</li>
 												<li>
-													<a href="sell.html">Sell</a>
+													<a href="sell.php">Sell</a>
 												</li>
 												<li>
-													<a href="account.html">Account</a>
+													<a href="account.php">Account</a>
 												</li>
 											</ul>
 										</div>
