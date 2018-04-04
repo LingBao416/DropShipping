@@ -1,25 +1,21 @@
-<?php session_start();
- error_reporting(0);
-if($_SESSION['uid']==NULL){
-    
-} else {
-?>
+<?php session_start(); error_reporting(0);
+if($_SESSION['uid']==''){
+    ?>
 <script>
-document.location = "myprofile.php";
-</script><?php    
+document.location = "account.php";
+</script> <?php
 }
-
-?>
+?>﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>umazon.com - Login/SIgnup Account Page</title>
+<title>umazon.com - You are logged in as: <?php echo $_SESSION['uid'];  ?></title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<link href="images/logo.png" rel="shortcut icon" type="image/x-icon">
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <link href="images/logo.png" rel="icon" type="image/x-icon"><!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -276,16 +272,16 @@ ul#lightGallery {
     <div class="container" style="margin-top: 30px;">
        <ul class="breadcrumb">
         <li><a href="index.php">Home</a></li>
-        <li class="active">Login/Signup Account</li>        
+        <li class="active">You are logged in as: <?php echo $_SESSION['uid'];  ?> | <a href="logout.php"> <span class="glyphicon glyphicon-log-out" style="color: red;"> </span> Logout </a></li>        
         </ul>
    </div>
     <!--End Breadcrumb-->
     
 
-
-
+    <div class="container"> Custom Content Here...</div>
+<br/><br/><br/>
 <div class="container-fluid" style="padding-top:10px">
-
+<!--
  <div class="container">
 	
 	<div class="row">
@@ -299,10 +295,7 @@ ul#lightGallery {
                     <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                         <input id="user" type="text" class="form-control" name="user" value="" placeholder="User ID">                                        
-                    </div>
-
-					<br/>
-
+                    </div><br/>
                     <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                         <input id="password" type="password" class="form-control" name="password" placeholder="Password">
@@ -311,7 +304,7 @@ ul#lightGallery {
 					<br/>
 					
                     <div class="form-group">
-                        <!-- Button -->
+                         Button 
                         <div class="col-sm-12 controls">
 <button type="submit" class="btn btn-primary pull-right btnLogin"><i class="glyphicon glyphicon-log-in"></i> Log in</button>                          
                         </div>
@@ -353,7 +346,7 @@ ul#lightGallery {
 	  
 	<div class="form-group has-error has-feedback">
             <input type="text" name="ph" rows="4" class="form-control" id="message" required placeholder="*mobile number" />
-    </div> 
+            </div> 
 	  
 	 <div class="form-group has-error has-feedback">
              <div id="processingReg"></div>
@@ -370,12 +363,14 @@ ul#lightGallery {
 			</div>
 			
 			
-		</div><!-- End Row -->
+		</div> End Row 
  
 
 </div>
  
-</div></div>
+</div>-->
+    
+</div>
     
     
     <!--Main Footer-->
@@ -522,7 +517,11 @@ ul#lightGallery {
 	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js">
 	</script> 
 	<script src="js/script.js">
-	</script> 
+	</script>
+        <script src="js/register.js">
+	</script>
+        <script src="js/login.js">
+	</script>
 
 </body>
 </html>
